@@ -1,0 +1,86 @@
+.flotante {
+    display     : scroll;
+    position    : fixed;
+    bottom      : 320px;
+    right       : 0px;
+    border-image: 100%;
+}
+
+.card {
+    background: #093028;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #071b24, #093028);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #071b24, #093028);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-color         : #071b24;
+    display              : -webkit-box;
+    display              : -ms-flexbox;
+    display              : flex;
+    -webkit-box-orient   : vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction   : column;
+    flex-direction       : column;
+    -webkit-transition   : all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition        : all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition           : all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius        : 16px;
+    overflow             : hidden;
+    -webkit-box-shadow   : 1px 1px 25px #071b24, 0px 0px 25px #071b24;
+    box-shadow           : 1px 1px 25px #071b24, -1px 10px 25px #071b24;
+}
+
+#Plans .card-body {
+    background: #093028;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #071b24, #093028);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #071b24, #093028);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: left;
+
+}
+
+button.btn.btn-primary.btn-lg.btn-block {
+    background-color:white;
+    color: #071b24;
+    border-color: #071b24;
+
+}
+
+#Plans button {
+    margin-top     : 2em;
+    display        : inline-block;
+    align-items    : center;
+    justify-content: center;
+}
+
+#Plans {
+    margin-top: 6em;
+}
+
+#Plans p {
+    color: white;
+    text-align: center;
+}
+
+#Plans li {
+    color     : white;
+    text-align: left;
+}
+
+#Plans h4,
+h6 {
+    color: white;
+}
+
+#cabecera {
+    position: absolute;
+}
+
+#cabecera h3 {
+    text-align: center;
+    margin-top: 1em;
+    color     : black;
+
+}

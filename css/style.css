@@ -1,0 +1,74 @@
+div.col-sm img{
+    width: 50%;
+}
+
+div.carousel-item {
+    height: 70vh;
+    width: 100%;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+/*Quienes Somos*/
+div.col-sm-6 {
+    margin-top: 2%;
+}
+
+div.card {
+    background: #071b24;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #071b24, #093028, #071b24);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #071b24, #093028, #071b24);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 16px;
+    overflow: hidden;
+    -webkit-box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    box-shadow: 15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+    color: white;
+    width: 90%;
+    margin-left: 4%;
+}
+
+img.Imagen1{
+
+    width: 100%;
+    filter: blur(8px);
+}
+
+img.Imagen2{
+
+    width: 100%;
+    filter: blur(8px);
+}
+img.Imagen3{
+
+    width: 100%;
+    filter: blur(8px);
+}
+ 
+/*ajuste de iconos*/
+.marketing .col-lg-4 {
+    margin-top   : 2%;
+    margin-bottom: 1.5rem;
+    text-align   : center;
+}
+
+div.carousel-caption h5{  
+    margin-top: 0%;
+
+}
